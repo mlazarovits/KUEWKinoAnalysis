@@ -9,10 +9,10 @@ home = os.environ['HOME']
 #######################################
 RUN_DIR = pwd
 TEMP = pwd
-#EXE  = "MakeReducedNtuple.x"
-EXE  = "MakeEventCount.x"
-#OUT  = "/home/t3-ku/crogan/NTUPLES/Processing/"
-OUT = pwd
+EXE  = "MakeReducedNtuple.x"
+#EXE  = "MakeEventCount.x"
+OUT  = "/home/t3-ku/crogan/NTUPLES/Processing/"
+#OUT = pwd
 LIST = "default.list"
 QUEUE = ""
 TREE = "stopTreeMaker/AUX"
@@ -148,7 +148,7 @@ if __name__ == "__main__":
                 index = 0
                 for sub in filetag:
                     if hint in sub:
-                        filetag = filetag[index-3]
+                        filetag = filetag[index-3]+NAME
                         found = 1
                         break
                     index += 1
