@@ -9,7 +9,7 @@ home = os.environ['HOME']
 #######################################
 RUN_DIR = pwd
 TEMP = pwd
-EXE  = "MakeReducedNtuple.x"
+EXE  = "/home/t3-ku/mlazarov/CMSSW_10_1_4_patch1/src/KUEWKinoAnalysis/MakeReducedNtuple.x"
 #EXE  = "MakeEventCount.x"
 OUT  = "/home/t3-ku/mlazarov/CMSSW_10_1_4_patch1/src/red_NTUPLES"
 #OUT = pwd
